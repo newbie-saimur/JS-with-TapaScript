@@ -1,0 +1,135 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+hr {
+    margin: 50px 0;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.task-wrapper-div {
+    margin-bottom: 50px;
+}
+
+.light-theme {
+    color: #111827;
+    background-color: #FFFFFF;
+}
+
+.dark-theme {
+    color:#F9FAFB;
+    background-color: #0F172A;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+#theme-switch {
+    padding: 8px 10px;
+}
+
+#sumbit-btn, #reset-btn, #add-data-btn {
+    padding: 8px 30px;
+}
+
+.btn-light {
+    color: #FFFFFF;
+    background-color: #3B82F6;
+}
+
+.btn-light:hover {
+    background-color: #1E40AF;
+}
+
+.inputField {
+    outline-color: #0f172a7b;
+    border-color: #0f172a61;
+    padding: 6px 12px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+#input-fields-container {
+    width: 400px;
+    display: block;
+}
+
+.add-data-btn-container {
+    display: flex;
+}
+
+#add-data-btn {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.input-label {
+    display: inline-block;
+    height: 100%;
+    width: 70px;
+}
+
+#form-btn-container {
+    margin-top: 30px;
+}
+
+#add-form, .theme-switcher-div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#add-form .inputField {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+#input-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 30px 0;
+}
+
+#input-table thead{
+    background-color: rgba(128, 128, 128, 0.383);
+}
+
+#input-table tr th, #input-table tr td{
+    border: 1px solid black;
+    padding: 10px 10px;
+}
+
+#input-table tr th:nth-child(1) {
+    width: 40%;
+}
+
+#input-table tr th:nth-child(3) {
+    width: 30%;
+}
+
+#input-table tr th:nth-child(2) {
+    width: 20%;
+}
+
+#input-tbody {
+    background-color: #fff;
+}
+
+.theme-switcher-div {
+    margin-bottom: 50px;
+}

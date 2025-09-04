@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body class="light-theme">
+    <h2>Day 18 - 40 Days of JavaScript - DOM Manipulations</h1>
+    <hr>
+    <!-- Task 1. Create a form dynamically using JavaScript and manipulate its behavior -->
+    <div>
+        <h3>Task 1. Create a form dynamically using JavaScript and manipulate its behavior</h3>
+        <button id="select-input-fields" class="btn-light btn">Create your form input fields</button>
+        <div id="form-container">
+            <div id="input-fields-container"></div>
+            <div id="form-btn-container" style="display: none;">
+                <button id="submit-btn" class="btn-light btn">Submit</button>
+                <button id="reset-btn" class="btn-light btn">Reset</button>
+                <button id="reset-form" class="btn-light btn">Recreate Form</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Task 2. Add, delete, and search rows in a dynamic table -->
+    <div>
+        <h3>Task 2. Add, delete, and search rows in a dynamic table</h3>
+        <form id="add-form">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" class="inputField" id="name" placeholder="Enter your name" name="name" required>
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" class="inputField" id="age" placeholder="Enter your age" name="age" required>
+            </div>
+            <div>
+                <label for="role">Role</label>
+                <select name="role" class="inputField" id="role" required>
+                    <option disabled selected>Select Your Role</option>
+                    <option value="Intern Developer">Intern Developer</option>
+                    <option value="Junior Developer">Junior Developer</option>
+                    <option value="Senior Developer">Senior Developer</option>
+                </select>
+            </div>
+            <div class="add-data-btn-container">
+                <button id="add-data-btn" class="btn btn-light" type="submit">Add Data</button>
+            </div>
+        </form>
+        <div class="filter-container">
+            <input type="text" id="search-by" placeholder="Search by name" class="inputField">
+        </div>
+        <div>
+            <table id="input-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Role</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="input-tbody"></tbody>
+            </table>
+        </div>
+    </div>
+    <hr>
+    <!-- Task 3. Theme Switcher with Persistence -->
+    <div class="theme-switcher-div">
+        <h3>Task 3. Theme Switcher with Persistence</h3>
+        <button id="theme-switch" class="btn btn-light">🌙 Dark</button>
+    </div>
+</body>
+</html>
